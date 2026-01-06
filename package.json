@@ -1,0 +1,24 @@
+{
+  "name": "smart3st-logo-generator",
+  "version": "1.0.0",
+  "description": "Logo and marketing asset generator for Smart3st Inc",
+  "main": "src/generate-assets.js",
+  "scripts": {
+    "generate": "node src/generate-assets.js",
+    "isolate": "node src/isolate_logo.js",
+    "build": "npm run isolate && npm run generate"
+  },
+  "keywords": ["logo", "branding", "smart3st", "innovation", "assets"],
+  "author": "Victor Quinones",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Smart3st/smart3st-logo-generator.git"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.3",
+    "png-to-ico": "^3.0.1",
+    "sharp": "^0.34.5"
+  }
+}
