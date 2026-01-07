@@ -1,0 +1,3 @@
+[submodule "ai-dev-tasks"]
+	path = ai-dev-tasks
+	url = https://github.com/Smart3st/ai-dev-tasks.git
